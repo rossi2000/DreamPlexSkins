@@ -784,7 +784,8 @@
 		<!-- <widget name="poster" transparent="1" zPosition="49" position="0,450" size="195,268" alphatest="blend"/> -->
 		<!-- <widget name="shortDescription" text="" transparent="1" zPosition="99" halign="left" position="210,531" size="1060,179" font="youvix-r; 16" foregroundColor="#ffffff" backgroundColor="#40000000"/> -->
 		
-		<widget name="endingTime" position="700,1010" size="650,38" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#51010101" transparent="1" halign="right" valign="center" noWrap="1" zPosition="10"/>
+		<eLabel text="Finishes at:" position="275,1010" size="150,38" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#51010101" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="endingTime" position="425,1010" size="650,38" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#51010101" halign="left" valign="center" transparent="1" noWrap="1" zPosition="1"/>
 		
         <ePixmap position="center,992" size="1367,15" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Blue/images/movieprogressbar_background.png" alphatest="blend" />
 		<widget source="session.CurrentService" render="PositionGauge" position="276,987" size="1367,20" pointer="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Blue/images/movieprogressbar.png:1367,0" transparent="1" zPosition="2">
