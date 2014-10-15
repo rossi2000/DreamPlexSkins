@@ -531,7 +531,7 @@
         <!-- general -->
         <widget name="grandparentTitle" position="680,165" size="1160,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="5" halign="left" valign="center"/>
 		<widget name="title" position="680,205" size="900,35" font="youvix-b;32" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="5" halign="left" valign="center"/>
-        <widget name="tag" position="680,250" size="860,35" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="51" halign="left" valign="center" noWrap="1"/>
+        <widget name="tag" position="680,250" size="810,35" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="51" halign="left" valign="center" noWrap="1"/>
         <widget name="shortDescription" text="" position="680,290" size="770,280" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left"/>
         		
         <widget name="poster" position="1510,175" size="315,402" alphatest="blend" transparent="1" zPosition="1"/>
@@ -672,7 +672,7 @@
         <!-- general -->
         <widget name="grandparentTitle" position="680,165" size="1160,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
 		<widget name="title" position="680,205" size="900,35" font="youvix-b;32" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
-        <widget name="tag" position="680,250" size="860,35" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center" noWrap="1"/>
+        <widget name="tag" position="680,250" size="810,35" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center" noWrap="1"/>
         <widget name="shortDescription" text="" position="680,290" size="770,280" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="left" zPosition="99"/>
         		
         <widget name="poster" position="1510,175" size="315,402" alphatest="blend" transparent="1" zPosition="11"/>
