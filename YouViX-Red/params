@@ -19,19 +19,19 @@
     <screen name="DPS_VideoPlayer" miniTv="False" usePoster="False" height="268" width="195" />
 
 	<!-- FONTS SECTION -->
-	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/youvix-b.ttf" size="100" name="youvix-b" />
-	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/youvix-r.ttf" size="100" name="youvix-r" />
-	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/youvix-l.ttf" size="100" name="youvix-l" />
+	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/youvix-b.ttf" size="100" name="youvix-b" />
+	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/youvix-r.ttf" size="100" name="youvix-r" />
+	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/youvix-l.ttf" size="100" name="youvix-l" />
 	
 	<!-- GUI ELEMENTS -->
-	<guiElement name="seenPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/icons/seen-fs8.png" />
-	<guiElement name="startedPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/icons/started-fs8.png" />
-	<guiElement name="unseenPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/icons/unseen-fs8.png" />
+	<guiElement name="seenPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/icons/seen-fs8.png" />
+	<guiElement name="startedPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/icons/started-fs8.png" />
+	<guiElement name="unseenPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/icons/unseen-fs8.png" />
 
-	<guiElement name="key_red" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/buttons/btn_red-fs8.png" />
-	<guiElement name="key_green" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/buttons/btn_green-fs8.png" />
-	<guiElement name="key_blue" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/buttons/btn_blue-fs8.png" />
-	<guiElement name="key_yellow" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Red/buttons/btn_yellow-fs8.png"/>
+	<guiElement name="key_red" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/buttons/btn_red-fs8.png" />
+	<guiElement name="key_green" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/buttons/btn_green-fs8.png" />
+	<guiElement name="key_blue" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/buttons/btn_blue-fs8.png" />
+	<guiElement name="key_yellow" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Common/buttons/btn_yellow-fs8.png"/>
 	
 	<guiElement name="musicCase" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/default/images/cover-music-fs8.png" />
 	<guiElement name="videoCase" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/default/images/cover-movie-fs8.png" />
