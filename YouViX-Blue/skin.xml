@@ -617,7 +617,7 @@
         <widget name="btn_yellowText" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
 
         <widget name="btn_blue" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
-        <widget name="btn_blueText" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+        <widget name="btn_blueText" position="343,1031" size="288,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
 	</screen>    
 
     <!-- DPS_ViewBackdrop -->
@@ -758,7 +758,7 @@
         <widget name="btn_yellowText" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="11"/>
 
         <widget name="btn_blue" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="11"/>
-        <widget name="btn_blueText" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="11"/>
+        <widget name="btn_blueText" position="343,1031" size="288,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="11"/>
     </screen>    
 
     <!-- DPS_VideoPlayer -->
