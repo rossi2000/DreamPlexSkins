@@ -5,8 +5,8 @@
 	<skinParams resolution="FHD" compatibility="v2" skinner="rossi2000" debugMode="False" highlighted="#003499cc" normal="#ffffff"/> <!-- typea => HD, FHD -->
 	
 	<!-- MAIN MENU ORIENTATION -->
-	<menuScreen name="main_menu" type="horizontal" highlighted="#003499cc" normal="#ffffff" />
-	<menuScreen name="server_menu" type="horizontal" highlighted="#003499cc" normal="#ffffff"/>
+	<menuScreen name="main_menu" type="horizontal" highlighted="#00b400ff" normal="#ffffff" />
+	<menuScreen name="server_menu" type="horizontal" highlighted="#00b400ff" normal="#ffffff"/>
 
 	<!-- SCREEN OPTIONS -->
 	<!-- if miniTv = False you can delete height and width -->

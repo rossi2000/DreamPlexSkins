@@ -8,13 +8,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -53,13 +53,13 @@
         <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -90,13 +90,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -130,13 +130,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -167,13 +167,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -231,13 +231,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -281,13 +281,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -322,13 +322,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -365,13 +365,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -410,13 +410,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -456,13 +456,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -489,13 +489,13 @@
         <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -630,16 +630,16 @@
         <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="11" />
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/leftmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/centermenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/bigrightmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/farrightmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="2"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/screens/topmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="2"/>
-		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="2"/>
-		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="2"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
+		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
+		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
+		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Blue/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
         
 		<!-- clock -->
 		<eLabel position="1600,0" size="310,50" backgroundColor="#30000000" zPosition="10" />

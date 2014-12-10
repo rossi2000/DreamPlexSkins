@@ -8,13 +8,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -53,13 +53,13 @@
         <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -78,7 +78,7 @@
         <widget name="leftText" position="100,165" size="590,750" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="3"/>
 
         <!-- right content -->
-        <widget name="rightText" position="680,165" size="1160,750" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="3"/>
+        <widget name="rightText" position="680,165" size="1160,750" font="youvix-r;28" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="3"/>
     </screen>
 
     <!-- DPS_Settings -->
@@ -90,13 +90,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -130,13 +130,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -152,7 +152,7 @@
 		</widget>
 
         <!-- header -->
-        <widget name="header" position="680,159" size="1160,38" font="youvix-r;32" foregroundColor="#003499cc" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="3"/>
+        <widget name="header" position="680,159" size="1160,38" font="youvix-r;32" foregroundColor="#0040ab00" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="3"/>
 
         <!-- content -->
         <widget name="content" position="680,210" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/selectionbars/SelectionBar_H50x1160.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>     
@@ -167,13 +167,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -231,13 +231,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -281,13 +281,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -322,13 +322,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -365,13 +365,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -388,7 +388,7 @@
 
         <!-- settings -->
         <widget name="output" position="680,165" size="1160,500" font="youvix-r;28" itemHeight="50" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" />
-        <widget name="progress" position="680,665" size="1160,250" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" halign="left" valign="center" zPosition="15" />
+        <widget name="progress" position="680,665" size="1160,250" font="youvix-r;28" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" halign="left" valign="center" zPosition="15" />
 		
         <!-- functions -->
         <widget name="btn_red" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/buttons/btn_red-fs8.png" position="80,986" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
@@ -410,13 +410,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -456,13 +456,13 @@
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -489,13 +489,13 @@
         <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="-1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
 		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="-1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
 		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
 		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
@@ -531,7 +531,7 @@
         <!-- general -->
         <widget name="grandparentTitle" position="680,165" size="1160,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="5" halign="left" valign="center"/>
 		<widget name="title" position="680,205" size="900,35" font="youvix-b;32" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="5" halign="left" valign="center"/>
-        <widget name="tag" position="680,250" size="810,35" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="51" halign="left" valign="center" noWrap="1"/>
+        <widget name="tag" position="680,250" size="810,35" font="youvix-r;28" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="51" halign="left" valign="center" noWrap="1"/>
         <widget name="shortDescription" text="" position="680,290" size="770,280" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left"/>
         		
         <widget name="poster" position="1510,175" size="315,402" alphatest="blend" transparent="1" zPosition="1"/>
@@ -545,39 +545,39 @@
         <widget name="codec" position="1660,730" size="161,109" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-vc1-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-h.264-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-mpeg4-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-mpeg2-fs8.png" transparent="1" alphatest="blend" zPosition="49"/>
         <widget name="rated" position="1530,850" size="249,57" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-pg13-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-pg-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-r-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-nc-17-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-0-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-not-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-6-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-12-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-16-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-18-fs8.png" transparent="1" alphatest="blend" zPosition="49" />
 		
-		<widget name="yearLabel" position="680,580" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
+		<widget name="yearLabel" position="680,580" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
         <widget name="year" position="830,580" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/> 
-		<widget name="genreLabel" position="680,615" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
+		<widget name="genreLabel" position="680,615" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
         <widget name="genre" position="830,615" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
-		<widget name="directorLabel" position="680,650" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
+		<widget name="directorLabel" position="680,650" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
         <widget name="director" position="830,650" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
-		<widget name="writerLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
+		<widget name="writerLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
         <widget name="writer" position="830,685" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
-		<widget name="subtitlesLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="subtitlesLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="subtitles" position="830,720" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
-		<widget name="audioLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="audioLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="audio" position="830,755" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
-		<widget name="studioLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="studioLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="studio" position="830,790" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
-		<widget name="durationLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="durationLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="duration" position="830,825" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
-		<widget name="castLabel" position="680,860" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="castLabel" position="680,860" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="cast" position="830,860" size="400,60" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
 		
 		<!-- tv show specific -->
-		<widget name="infoLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
+		<widget name="infoLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
         <widget name="info" position="830,685" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="1" halign="left" valign="center"/>
 		
-        <widget name="childCountLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+        <widget name="childCountLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="childCount" position="830,720" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
 
-		<widget name="leafCountLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="leafCountLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="leafCount" position="830,755" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
 		
-		<widget name="viewedLeafCountLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="viewedLeafCountLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="viewedLeafCount"  position="830,790" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         	
-		<widget name="unviewedLeafCountLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
+		<widget name="unviewedLeafCountLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
         <widget name="unviewedLeafCount" position="830,825" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="4" halign="left" valign="center"/>
 
 		<!-- detail pane -->
@@ -599,7 +599,7 @@
         <widget name="file" position="350,608" size="550,60" font="youvix-r;12" foregroundColor="#ffffff" backgroundColor="#212121" transparent="1" zPosition="9" halign="left"/> -->
         
 		<!-- functions -->
-        <widget name="number_key_popup" position="330,840" size="75,80" font="youvix-r;70" foregroundColor="#003499cc" backgroundColor="#17000000" transparent="1" halign="center" valign="center" zPosition="51"/>
+        <widget name="number_key_popup" position="330,840" size="75,80" font="youvix-r;70" foregroundColor="#0040ab00" backgroundColor="#17000000" transparent="1" halign="center" valign="center" zPosition="51"/>
         
 		<widget name="L1" position="545,930" size="30,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="1"/>
         <widget name="L2" position="575,930" size="30,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="1"/>
@@ -630,16 +630,16 @@
         <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="11" />
 		
 		<!-- background -->
-		<ePixmap position="75,0" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="0,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/leftmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="75,150" size="600,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/centermenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="675,150" size="1170,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/bigrightmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="1845,150" size="75,780" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/farrightmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="2"/>
-		<ePixmap position="75,930" size="600,150" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/screens/topmenublock.png" alphatest="blend" zPosition="1"/>
-		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="2"/>
-		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="2"/>
-		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="2"/>
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
+		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
+		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
+		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
         
 		<!-- clock -->
 		<eLabel position="1600,0" size="310,50" backgroundColor="#30000000" zPosition="10" />
@@ -672,7 +672,7 @@
         <!-- general -->
         <widget name="grandparentTitle" position="680,165" size="1160,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
 		<widget name="title" position="680,205" size="900,35" font="youvix-b;32" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
-        <widget name="tag" position="680,250" size="810,35" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center" noWrap="1"/>
+        <widget name="tag" position="680,250" size="810,35" font="youvix-r;28" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center" noWrap="1"/>
         <widget name="shortDescription" text="" position="680,290" size="770,280" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="left" zPosition="20"/>
         		
         <widget name="poster" position="1510,175" size="315,402" alphatest="blend" transparent="1" zPosition="11"/>
@@ -686,39 +686,39 @@
         <widget name="codec" position="1660,730" size="161,109" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-vc1-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-h.264-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-mpeg4-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/codec-mpeg2-fs8.png" transparent="1" alphatest="blend" zPosition="49"/>
         <widget name="rated" position="1530,850" size="249,57" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-pg13-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-pg-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-r-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-nc-17-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-0-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/rated-not-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-6-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-12-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-16-fs8.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Green/icons/fsk-18-fs8.png" transparent="1" alphatest="blend" zPosition="49" />
 		
-		<widget name="yearLabel" position="680,580" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="yearLabel" position="680,580" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="year" position="830,580" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/> 
-		<widget name="genreLabel" position="680,615" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="genreLabel" position="680,615" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="genre" position="830,615" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
-		<widget name="directorLabel" position="680,650" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="directorLabel" position="680,650" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="director" position="830,650" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
-		<widget name="writerLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="writerLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="writer" position="830,685" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
-		<widget name="subtitlesLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="subtitlesLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="subtitles" position="830,720" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
-		<widget name="audioLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="audioLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="audio" position="830,755" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
-		<widget name="studioLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="studioLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="studio" position="830,790" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
-		<widget name="durationLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="durationLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="duration" position="830,825" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
-		<widget name="castLabel" position="680,860" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="castLabel" position="680,860" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="cast" position="830,860" size="400,60" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
 		
 		<!-- tv show specific -->
-		<widget name="infoLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="infoLabel" position="680,685" size="150,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
         <widget name="info" position="830,685" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
 		
-        <widget name="childCountLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+        <widget name="childCountLabel" position="680,720" size="120,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="childCount" position="830,720" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
 
-		<widget name="leafCountLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="leafCountLabel" position="680,755" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="leafCount" position="830,755" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
 		
-		<widget name="viewedLeafCountLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="viewedLeafCountLabel" position="680,790" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="viewedLeafCount"  position="830,790" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         	
-		<widget name="unviewedLeafCountLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="unviewedLeafCountLabel" position="680,825" size="160,35" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
         <widget name="unviewedLeafCount" position="830,825" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
 
 		<!-- detail pane -->
@@ -740,7 +740,7 @@
         <widget name="file" position="350,608" size="550,60" font="youvix-r;12" foregroundColor="#ffffff" backgroundColor="#212121" transparent="1" zPosition="9" halign="left"/> -->
 		
         <!-- functions -->
-        <widget name="number_key_popup" position="330,840" size="75,80" font="youvix-r;70" foregroundColor="#003499cc" backgroundColor="#17000000" transparent="1" halign="center" valign="center" zPosition="51"/>
+        <widget name="number_key_popup" position="330,840" size="75,80" font="youvix-r;70" foregroundColor="#0040ab00" backgroundColor="#17000000" transparent="1" halign="center" valign="center" zPosition="51"/>
         
 		<widget name="L1" position="545,930" size="30,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="11"/>
         <widget name="L2" position="575,930" size="30,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="11"/>
@@ -794,8 +794,8 @@
         <widget source="session.CurrentService" render="Label" position="1422,1010" size="100,38" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#51010101" transparent="1" halign="right" valign="center">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<eLabel text="/" font="youvix-r;26" position="1532,1014" size="25,38" foregroundColor="#003499cc" backgroundColor="#51010101" halign="left" transparent="1" zPosition="1"/>
-		<widget source="session.CurrentService" render="Label" position="1550,1010" size="100,38" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#51010101" transparent="1" halign="left" valign="center">
+		<eLabel text="/" font="youvix-r;26" position="1532,1014" size="25,38" foregroundColor="#0040ab00" backgroundColor="#51010101" halign="left" transparent="1" zPosition="1"/>
+		<widget source="session.CurrentService" render="Label" position="1550,1010" size="100,38" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#51010101" transparent="1" halign="left" valign="center">
 			<convert type="ServicePosition">Length</convert>
 		</widget>
     </screen>
@@ -829,8 +829,8 @@
         <widget source="session.CurrentService" render="Label" position="1422,1010" size="100,38" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#51010101" transparent="1" halign="right" valign="center">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<eLabel text="/" font="youvix-r;26" position="1532,1014" size="25,38" foregroundColor="#003499cc" backgroundColor="#51010101" halign="left" transparent="1" zPosition="1"/>
-		<widget source="session.CurrentService" render="Label" position="1550,1010" size="100,38" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#51010101" transparent="1" halign="left" valign="center">
+		<eLabel text="/" font="youvix-r;26" position="1532,1014" size="25,38" foregroundColor="#0040ab00" backgroundColor="#51010101" halign="left" transparent="1" zPosition="1"/>
+		<widget source="session.CurrentService" render="Label" position="1550,1010" size="100,38" font="youvix-r;26" foregroundColor="#0040ab00" backgroundColor="#51010101" transparent="1" halign="left" valign="center">
 			<convert type="ServicePosition">Length</convert>
 		</widget>
     </screen>
