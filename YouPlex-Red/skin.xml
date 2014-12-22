@@ -3,8 +3,8 @@
     <screen name="DPS_MainMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -42,15 +42,14 @@
         <widget name="0" position="680,440" size="1160,50" font="youvix-r;32" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8" />
         <widget name="+1" position="680,500" size="1160,50" font="youvix-r;32" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8" />
         <widget name="+2" position="680,560" size="1160,50" font="youvix-r;32" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8" />
-
     </screen>    
 
     <!-- DPS_About -->
     <screen name="DPS_About" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
 		<!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		
 		<!-- background -->
 		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
@@ -85,8 +84,8 @@
     <screen name="DPS_Settings" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <eLabel text="Settings" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <eLabel text="Settings" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -125,8 +124,8 @@
     <screen name="DPS_SystemCheck" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -162,8 +161,8 @@
     <screen name="DPS_Server" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <eLabel text="Servers" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <eLabel text="Servers" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -218,16 +217,16 @@
         <widget name="btn_yellow" position="635,986" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
         <widget name="btn_yellowText" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
 
-        <widget name="btn_blue" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
-        <widget name="btn_blueText" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+        <widget name="btn_Red" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+        <widget name="btn_RedText" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
     </screen>
 
     <!-- DPS_ServerConfig -->
     <screen name="DPS_ServerConfig" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <eLabel text="Server Config" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <eLabel text="Server Config" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -268,16 +267,16 @@
         <widget name="btn_yellow" position="635,986" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
         <widget name="btn_yellowText" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
 
-        <widget name="btn_blue" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
-        <widget name="btn_blueText" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+        <widget name="btn_Red" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+        <widget name="btn_RedText" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
     </screen>
 
     <!-- DPS_Mappings -->
     <screen name="DPS_Mappings" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <eLabel text="Mappings" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <eLabel text="Mappings" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -317,8 +316,8 @@
     <screen name="DPS_PathSelector" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -355,13 +354,54 @@
         <widget name="btn_green" position="80,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
         <widget name="btn_greenText" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
     </screen>
+	
+	<!-- DPS_Users -->
+    <screen name="DPS_Users" position="0,0" size="1280,720" title=" " backgroundColor="#000000" flags="wfNoBorder">
+        <!-- title -->
+		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" text="Mappings"/>
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
+		
+		<!-- background -->
+		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="0,150" size="75,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="75,150" size="600,780" backgroundColor="#17000000" zPosition="-1" />
+		<eLabel position="675,150" size="1170,780" backgroundColor="#30000000" zPosition="-1" />
+		<eLabel position="1845,150" size="75,780" backgroundColor="#17000000" zPosition="-1" />
+		<ePixmap position="1855,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/icons/arrow-right.png" alphatest="blend" zPosition="1"/>
+		<eLabel position="75,930" size="600,150" backgroundColor="#30000000" zPosition="-1" />
+		<ePixmap position="345,110" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/icons/arrow-up.png" alphatest="blend" zPosition="1"/>
+		<ePixmap position="35,500" size="32,48" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/icons/arrow-left.png" alphatest="blend" zPosition="1"/>
+		<ePixmap position="345,936" size="50,32" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/icons/arrow-down.png" alphatest="blend" zPosition="1"/>
+		
+		<!-- clock -->
+		<eLabel position="1600,0" size="310,50" backgroundColor="#30000000" zPosition="-1" />
+		<widget source="global.CurrentTime" render="Label" position="1622,0" size="140,50" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" noWrap="1" halign="right" valign="center" zPosition="1">
+			<convert type="ClockToText">Format:%a %e %b</convert>
+		</widget>
+		<ePixmap position="1780,12" size="24,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/icons/clock.png" alphatest="blend" zPosition="1"/>
+		<widget source="global.CurrentTime" render="Label" position="1820,0" size="100,50" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" noWrap="1" halign="left" valign="center" zPosition="1">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+
+        <!-- content -->
+        <widget name="content" position="680,165" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/selectionbars/SelectionBar_H50x1160.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+
+        <!-- functions -->
+        <widget name="btn_red" position="80,986" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+        <widget name="btn_redText" position="120,987" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
+
+        <widget name="btn_green" position="80,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+        <widget name="btn_greenText" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
+    </screen>
 
     <!-- DPS_Syncer -->
     <screen name="DPS_Syncer" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -397,16 +437,16 @@
         <widget name="btn_green" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/buttons/btn_green-fs8.png" position="80,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
         <widget name="txt_green" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
 
-        <widget name="btn_blue" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/buttons/btn_blue-fs8.png" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
-        <widget name="txt_blue" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+        <widget name="btn_Red" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/buttons/btn_Red-fs8.png" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+        <widget name="txt_Red" position="363,1031" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
     </screen>
 
     <!--DPS_ServerMenu -->
     <screen name="DPS_ServerMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -451,8 +491,8 @@
     <screen name="DPS_InputBox" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouPlex-Red/images/dreamplex.png" position="250,210" size="260,365" alphatest="blend" zPosition="10"/>
 		
 		<!-- background -->
@@ -485,8 +525,8 @@
     <screen name="DPS_ViewList" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
 		<!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1" />
 		
 		<!-- background -->
 		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
@@ -616,8 +656,8 @@
         <widget name="btn_yellow" position="635,986" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
         <widget name="btn_yellowText" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
 
-        <widget name="btn_blue" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
-        <widget name="btn_blueText" position="343,1031" size="288,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+        <widget name="btn_Red" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+        <widget name="btn_RedText" position="343,1031" size="288,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
 	</screen>    
 
     <!-- DPS_ViewBackdrop -->
@@ -626,8 +666,8 @@
 		<!-- <widget name="stillPicture" position="0,0" size="1920,1080" backgroundColor="#ff111111" zPosition="-2"/> -->
         <!-- title -->
 		<eLabel text="MyPlex" position="85,5" size="300,45" font="youvix-r;40" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="11"/>
-		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="11"/>
-        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#001176ad" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="11" />
+		<eLabel text=">" position="95,53" size="35,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="11"/>
+        <widget source="Title" render="Label" position="125,55" size="540,38" font="youvix-r;32" foregroundColor="#00ff1919" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="11" />
 		
 		<!-- background -->
 		<eLabel position="75,0" size="600,150" backgroundColor="#30000000" zPosition="-1" />
@@ -757,8 +797,8 @@
         <widget name="btn_yellow" position="635,986" size="35,35" alphatest="blend" transparent="1" zPosition="11"/>
         <widget name="btn_yellowText" position="363,987" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="11"/>
 
-        <widget name="btn_blue" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="11"/>
-        <widget name="btn_blueText" position="343,1031" size="288,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="11"/>
+        <widget name="btn_Red" position="635,1031" size="35,35" alphatest="blend" transparent="1" zPosition="11"/>
+        <widget name="btn_RedText" position="343,1031" size="288,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="11"/>
     </screen>    
 
     <!-- DPS_VideoPlayer -->
