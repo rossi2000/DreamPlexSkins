@@ -1,0 +1,409 @@
+<skins>
+	<!--DPS_MainMenu -->
+	<screen name="DPS_MainMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#000000" title=" ">
+		<!-- title -->
+		<!-- background -->
+		<widget name="stillPicture" backgroundColor="#ff111111" zPosition="-3" position="0,0" size="1080,1920"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex.png" alphatest="blend" zPosition="-1"/>
+		<!-- menu -->
+		<widget source="menu" render="Listbox" position="680,165" size="1,1" zPosition="0">
+			<convert type="TemplatedMultiContent">
+                {"template": [ MultiContentEntryText(pos = (10, 14), size = (600, 50), flags = RT_HALIGN_CENTER, text = 0) ], "fonts": [gFont("youvix-r",32)], "itemHeight": 75 }
+            </convert>
+		</widget>
+		<!-- moving targets -->
+		<widget name="-1" position="500,235" size="920,83" font="youvix-l;32" foregroundColor="#999900" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+		<widget name="0" position="500,335" size="920,83" font="youvix-r;36" foregroundColor="#CC7C19" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+		<widget name="+1" position="500,435" size="920,83" font="youvix-l;32" foregroundColor="#999900" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+		<widget name="+2" position="500,535" size="920,83" font="youvix-l;32" foregroundColor="#999900" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+	</screen>
+	<!-- DPS_About -->
+	<screen name="DPS_About" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-2.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<widget source="Title" render="Label" position="362,60" size="200,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<!-- left content -->
+		<widget name="leftText" position="174,188" size="534,684" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="3"/>
+		<!-- right content -->
+		<widget name="rightText" position="815,188" size="845,685" font="youvix-r;28" foregroundColor="#CC7C19" backgroundColor="#30000000" transparent="1" zPosition="3"/>
+	</screen>
+	<!-- DPS_Settings -->
+	<screen name="DPS_Settings" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-2.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<eLabel text="Settings" position="362,60" size="200,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<!-- settings -->
+		<widget name="config" position="815,188" size="940,670" font="DefaultCaps;26" itemHeight="60" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/SelectionBar-940.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<!-- hintbox -->
+		<widget source="help" render="Label" position="174,188" size="534,684" font="youvix-r;28" foregroundColor="#999900" backgroundColor="#17000000" transparent="1" halign="center" valign="center" zPosition="1"/>
+		<widget name="btn_green" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/buttons/btn_green-fs8.png" position="80,1031" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="txt_green" position="120,1033" size="268,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="left" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!-- DPS_SystemCheck -->
+	<screen name="DPS_SystemCheck" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<widget name="stillPicture" backgroundColor="#ff111111" zPosition="-3" position="0,0" size="1080,1920"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-3.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<eLabel text="SystemCheck" position="362,60" size="400,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<!-- header -->
+		<widget name="header" position="510,215" size="1160,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="3"/>
+		<widget name="content" position="510,278" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/selectionbars/SelectionBar_H50x1160.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+	</screen>
+	<!-- DPS_Server -->
+	<screen name="DPS_Server" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<widget name="stillPicture" backgroundColor="#ff111111" zPosition="-3" position="0,0" size="1080,1920"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-3.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<eLabel text="Servers" position="362,60" size="200,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<!-- header -->
+		<widget name="header" position="510,215" size="1160,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="3"/>
+		<!-- column header -->
+		<widget name="columnHeader" position="510,278" size="1160,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="4"/>
+		<!-- menu -->
+		<widget source="entryList" render="Listbox" position="510,331" size="1160,450" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/selectionbars/SelectionBar_H50x1160.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1">
+			<convert type="TemplatedMultiContent">
+                {
+                "template": [ MultiContentEntryText(pos = (0, 0), size = (400, 50), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+                              MultiContentEntryText(pos = (300, 0), size = (400, 50), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                              MultiContentEntryText(pos = (700, 0), size = (400, 50), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 2),
+                              MultiContentEntryText(pos = (1050, 0), size = (400, 50), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3)
+                ],
+                "fonts": [gFont("youvix-r", 28)],
+                "itemHeight": 50 }
+            </convert>
+		</widget>
+		<!-- buttons -->
+		<widget name="btn_red" position="1841,850" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_redText" position="1500,850" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_green" position="1841,900" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_greenText" position="1500,900" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_yellow" position="1840,950" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_yellowText" position="1500,950" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_blue" position="1840,1000" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_blueText" position="1500,1000" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!-- DPS_ServerConfig -->
+	<screen name="DPS_ServerConfig" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-2.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<eLabel text="ServerConfig" position="362,60" size="200,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<!-- settings -->
+		<widget name="config" position="815,188" size="940,670" font="DefaultCaps;26" itemHeight="60" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/SelectionBar-940.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<!-- hintbox -->
+		<widget source="help" render="Label" position="174,188" size="534,684" font="youvix-r;28" foregroundColor="#999900" backgroundColor="#17000000" transparent="1" halign="center" valign="center" zPosition="1"/>
+		<!-- buttons -->
+		<widget name="btn_red" position="1841,850" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_redText" position="1500,850" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_green" position="1841,900" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_greenText" position="1500,900" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_yellow" position="1840,950" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_yellowText" position="1500,950" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_blue" position="1840,1000" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_blueText" position="1500,1000" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!-- DPS_Mappings -->
+	<screen name="DPS_Mappings" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-3.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<eLabel text="DPS_Mappings" position="362,60" size="400,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<!-- header -->
+		<widget name="content" position="510,278" size="1160,750" font="youvix-r;28" itemHeight="50" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/selectionbars/SelectionBar_H50x1160.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<!-- buttons -->
+		<widget name="btn_red" position="1841,850" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_redText" position="1500,850" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_green" position="1841,900" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_greenText" position="1500,900" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_yellow" position="1840,950" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_yellowText" position="1500,950" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_blue" position="1840,1000" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_blueText" position="1500,1000" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!-- DPS_PathSelector -->
+	<screen name="DPS_PathSelector" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- content -->
+		<widget name="targetText" position="510,215" size="150,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="target" position="670,215" size="580,35" font="youvix-r;28" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="filelist" position="510,262" size="1160,550" font="youvix-r;28" itemHeight="50" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/YouViX-Blue/selectionbars/SelectionBar_H50x1160.png" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1"/>
+		<!-- buttons -->
+		<widget name="btn_red" position="1841,850" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_redText" position="1500,850" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_green" position="1841,900" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_greenText" position="1500,900" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_yellow" position="1840,950" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_yellowText" position="1500,950" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_blue" position="1840,1000" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_blueText" position="1500,1000" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!-- DPS_Syncer -->
+	<screen name="DPS_Syncer" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-3.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<widget source="Title" render="Label" position="362,60" size="400,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<!-- settings -->
+		<widget name="output" position="509,259" size="1160,367" font="youvix-r;26" itemHeight="40" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" zPosition="1"/>
+		<widget name="progress" position="509,626" size="1160,183" font="youvix-r;28" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" halign="left" valign="center" zPosition="15"/>
+		<!-- buttons -->
+		<widget name="btn_red" position="1841,850" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_redText" position="1500,850" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_green" position="1841,900" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_greenText" position="1500,900" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_yellow" position="1840,950" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_yellowText" position="1500,950" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_blue" position="1840,1000" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_blueText" position="1500,1000" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!--DPS_ServerMenu -->
+	<screen name="DPS_ServerMenu" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- title -->
+		<!-- background -->
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex.png" alphatest="blend" zPosition="-1"/>
+		<!-- menu -->
+		<widget source="menu" render="Listbox" position="680,165" size="1,1" zPosition="0">
+			<convert type="TemplatedMultiContent">
+                {"template": [ MultiContentEntryText(pos = (10, 14), size = (600, 50), flags = RT_HALIGN_CENTER, text = 0) ], "fonts": [gFont("youvix-r",32)], "itemHeight": 75 }
+            </convert>
+		</widget>
+		<!-- moving targets -->
+		<widget name="-1" position="500,235" size="920,83" font="youvix-l;32" foregroundColor="#999900" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+		<widget name="0" position="500,335" size="920,83" font="youvix-r;36" foregroundColor="#CC7C19" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+		<widget name="+1" position="500,435" size="920,83" font="youvix-l;32" foregroundColor="#999900" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+		<widget name="+2" position="500,535" size="920,83" font="youvix-l;32" foregroundColor="#999900" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="8"/>
+	</screen>
+	<!-- DPS_InputBox -->
+	<screen name="DPS_InputBox" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<!-- background -->
+		<widget name="stillPicture" backgroundColor="#ff111111" zPosition="-3" position="0,0" size="1080,1920"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground-plex-2.png" alphatest="blend" zPosition="-1"/>
+		<!-- title -->
+		<ePixmap position="144,55" size="199,53" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/myplex-logo.png" alphatest="blend" zPosition="1"/>
+		<widget source="Title" render="Label" position="362,60" size="200,40" font="youvix-l;36" foregroundColor="#999900" backgroundColor="#30000000" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="text" position="265,470" size="350,210" font="youvix-r;46" foregroundColor="#CC7C19" backgroundColor="#30000000" transparent="1" halign="left" zPosition="10"/>
+		<widget name="input" position="798,495" size="945,70" font="youvix-r;46" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="center" valign="center" zPosition="10"/>
+	</screen>
+	<!-- DPS_ViewList -->
+	<screen name="DPS_ViewList" position="0,0" size="1920,1080" flags="wfNoBorder" transparent="0" backgroundColor="black" title=" ">
+		<widget name="stillPicture" backgroundColor="#ff111111" zPosition="-7" position="0,0" size="1080,1920"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/bellobackground.png" alphatest="blend" zPosition="-6"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/back-vignette.png" alphatest="blend" zPosition="-5"/>
+		<ePixmap position="1285,139" size="604,773" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/Poster_Panel.png" alphatest="blend" zPosition="-4"/>
+		<widget name="poster" position="1444,165" size="432,635" alphatest="blend" transparent="1" zPosition="-3"/>
+		<ePixmap position="1319,155" size="570,646" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/Poster_Overlay.png" alphatest="blend" zPosition="-2"/>
+		<ePixmap position="742,58" size="805,1011" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/Info_Panel.png" alphatest="blend" zPosition="-1"/>
+		<ePixmap position="43,10" size="917,1037" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/List_Panel.png" alphatest="blend" zPosition="2"/>
+		<!-- content -->
+		<widget source="listview" render="Listbox" position="118,206" size="728,612" foregroundColor="#787878" backgroundColor="#17000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/SelectionBar--744.png" transparent="1" scrollbarMode="showNever" zPosition="11" alphatest="blend">
+			<convert type="TemplatedMultiContent">
+                {"template": [ MultiContentEntryText(pos = (80,0), size = (650,60), flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 0),
+                MultiContentEntryPixmapAlphaBlend(pos = (20,13), size = (26,26), png = 3) ],
+                "fonts": [gFont("DefaultCaps", 28)],
+                "itemHeight": 60,
+                "scrollbarMode": "showNever"
+                }
+            </convert>
+		</widget>
+		<widget name="shortDescription" text="" position="932,265" size="512,537" font="Default;28" foregroundColor="#F0F3FC" transparent="1" backgroundColor="#30000000" zPosition="99" halign="left"/>
+		<widget name="durationLabel" position="950,130" size="160,35" font="DefaultCaps;28" foregroundColor="#7C8794" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="duration" position="1100,130" size="160,35" font="DefaultCaps;28" foregroundColor="#F0F3FC" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="castLabel" position="950,173" size="85,35" font="DefaultCaps;28" foregroundColor="#7C8794" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="cast" position="1040,173" size="381,70" font="Default;26" noWrap="0" foregroundColor="#F0F3FC" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="top"/>
+		<widget name="paginationLabel" position="692,81" size="100,35" font="DefaultCaps;28" foregroundColor="#7C8794" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="pagination" position="815,81" size="80,35" font="DefaultCaps;28" foregroundColor="#7C8794" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="title" position="950,173" size="485,70" font="DefaultCaps;28" foregroundColor="#7C8794" backgroundColor="#30000000" transparent="1" zPosition="12" halign="left" valign="center"/>
+		<!-- functions -->
+		<widget name="number_key_popup" position="448,85" size="75,80" font="DefaultCaps;70" foregroundColor="#003499cc" backgroundColor="#17000000" transparent="1" halign="center" valign="center" zPosition="51"/>
+		<widget name="L1" position="715,114" size="30,35" font="DefaultCaps;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="11"/>
+		<widget name="L2" position="745,114" size="30,35" font="DefaultCaps;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="11"/>
+		<widget name="L3" position="775,114" size="30,35" font="DefaultCaps;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="11"/>
+		<widget name="L4" position="805,114" size="30,35" font="DefaultCaps;24" foregroundColor="#00ffffff" backgroundColor="#30000000" halign="center" valign="center" transparent="1" zPosition="11"/>
+		<widget name="resolution" position="921,789" size="190,60" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-1080.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-720.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-sd.png" transparent="1" alphatest="blend" zPosition="49"/>
+		<widget name="sound" position="1243,792" size="97,56" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/dtshd_hra.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/ac3.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/aac.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/mp3.png" transparent="1" alphatest="blend" zPosition="49"/>
+		<widget name="codec" position="1119,792" size="121,56" pixmaps="	/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/vc1.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/h264.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/h264.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/mpeg2video.png" transparent="1" alphatest="blend" zPosition="49"/>
+		<!-- flags
+		
+		<widget name="resolution" position="921,789" size="190,60" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-1080.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-720.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-480.png" transparent="1" alphatest="blend" zPosition="49"/>
+			
+		<widget name="sound" position="1243,797" size="97,56" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/dts.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/ac3.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/aac.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/mp3.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/ac3.png," transparent="1" alphatest="blend" zPosition="49"/> -->
+		<!-- buttons -->
+		<widget name="btn_red" position="1841,850" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_redText" position="1500,850" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_green" position="1841,900" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_greenText" position="1500,900" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_yellow" position="1840,950" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_yellowText" position="1500,950" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_blue" position="1840,1000" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_blueText" position="1500,1000" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!-- DPS_ViewBackdrop -->
+	<screen name="DPS_ViewBackdrop" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title=" ">
+		<widget name="stillPicture" backgroundColor="#ff111111" zPosition="-7" position="0,0" size="1080,1920"/>
+		<widget name="backdrop" position="0,0" size="1920,1080" transparent="0" zPosition="-6" alphatest="blend"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/backdrop/backdrop_overlay2.png" alphatest="blend" zPosition="-5"/>
+		<ePixmap position="62,84" size="658,912" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/backdrop/list_panel.png" alphatest="blend" zPosition="-4"/>
+		<ePixmap position="718,271" size="1092,604" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/backdrop/info_panel.png" alphatest="blend" zPosition="-4"/>
+		<widget name="poster" position="729,276" size="396,593" alphatest="blend" transparent="1" zPosition="-3"/>
+		<widget name="shortDescription" text="" position="1166,304" size="630,315" font="Default;28" foregroundColor="#F0F3FC" transparent="1" backgroundColor="#30000000" zPosition="99" halign="left"/>
+		<widget name="paginationLabel" position="495,90" size="100,35" font="DefaultCaps;28" foregroundColor="#7C8794" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="pagination" position="618,90" size="80,35" font="DefaultCaps;28" foregroundColor="#7C8794" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<!-- list -->
+		<widget source="listview" render="Listbox" position="75,150" size="623,852" foregroundColor="#787878" backgroundColor="#17000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/images/SelectionBar--744.png" transparent="1" scrollbarMode="showNever" zPosition="11" alphatest="blend">
+			<convert type="TemplatedMultiContent">
+                {"template": [ MultiContentEntryText(pos = (80,0), size = (623,60), flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 0),
+                MultiContentEntryPixmapAlphaBlend(pos = (20,13), size = (26,26), png = 3) ],
+                "fonts": [gFont("DefaultCaps", 26)],
+                "itemHeight": 60,
+                "scrollbarMode": "showNever"
+                }
+            </convert>
+		</widget>
+		
+		<!-- Flags  -->
+		
+			
+				
+<widget name="resolution" position="752,884" size="190,60" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-1080.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-720.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/defs/resolution-sd.png" transparent="1" alphatest="blend" zPosition="49"/>
+		<widget name="sound" position="942,887" size="97,56" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/dtshd_hra.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/ac3.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/aac.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/audio/mp3.png" transparent="1" alphatest="blend" zPosition="49"/>
+		<widget name="codec" position="1032,887" size="121,56" pixmaps="	/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/vc1.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/h264.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/h264.png,/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/video/mpeg2video.png" transparent="1" alphatest="blend" zPosition="49"/>		
+		
+		<!-- movie specific -->
+		<widget name="yearLabel" position="1170,645" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="year" position="1340,645" size="435,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="durationLabel" position="1170,680" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="duration" position="1340,680" size="455,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="genreLabel" position="1170,715" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="genre" position="1340,715" size="455,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="studioLabel" position="1170,750" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="studio" position="1340,750" size="455,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="castLabel" position="1170,785" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="cast" position="1340,785" size="455,60" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<!-- tv show specific -->
+		<widget name="infoLabel" position="1170,645" size="150,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="info" position="1340,645" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="11" halign="left" valign="center"/>
+		<widget name="childCountLabel" position="1170,680" size="120,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="childCount" position="1340,680" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="leafCountLabel" position="1170,715" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="leafCount" position="1340,715" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="viewedLeafCountLabel" position="1170,750" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="viewedLeafCount" position="1340,750" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="unviewedLeafCountLabel" position="1170,785" size="160,35" font="youvix-r;26" foregroundColor="#003499cc" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<widget name="unviewedLeafCount" position="1340,785" size="400,35" font="youvix-r;26" foregroundColor="#ffffff" backgroundColor="#30000000" transparent="1" zPosition="14" halign="left" valign="center"/>
+		<!-- buttons -->
+		<widget name="btn_red" position="1841,875" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_redText" position="1500,875" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_green" position="1841,925" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_greenText" position="1500,925" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_yellow" position="1840,975" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_yellowText" position="1500,975" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+		<widget name="btn_blue" position="1840,1025" size="35,35" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="btn_blueText" position="1500,1025" size="315,35" font="youvix-r;24" foregroundColor="#00ffffff" backgroundColor="#30000000" transparent="1" halign="right" valign="center" noWrap="1" zPosition="1"/>
+	</screen>
+	<!-- DPS_VideoPlayer -->
+	<screen name="DPS_VideoPlayer" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title="InfoBar">
+		<!-- background -->
+		<ePixmap position="0,723" size="1920,305" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/moviebar.png" zPosition="-1"/>
+		<widget name="poster" transparent="1" zPosition="1" position="94,652" size="244,354" alphatest="blend"/>
+		<widget name="bufferslider" position="center,20" size="500,10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/progress-fs8.png" transparent="1" zPosition="10"/>
+		<!-- clock -->
+		<widget source="global.CurrentTime" render="Label" position="1707,50" size="150,70" font="youvix-r;56" foregroundColor="#00ffffff" backgroundColor="#51010101" transparent="1" noWrap="1" halign="right" valign="center" zPosition="1">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget source="mediaTitle" render="Label" position="360,725" size="1120,60" font="Default;45" foregroundColor="#CECECE" backgroundColor="#51010101" transparent="1" halign="left" valign="center" noWrap="1" zPosition="4"/>
+		<widget name="shortDescription" text="" transparent="1" zPosition="99" halign="left" position="360,783" size="1478,160" font="youvix-l; 28" foregroundColor="#CECECE" backgroundColor="#40000000"/>
+		<!-- for future dreamplex enhancments to DP-Player.py
+		<widget name="year" text="" transparent="1" zPosition="99" halign="left" position="360,603" size="1478,160" font="youvix-l; 28" foregroundColor="#CECECE" backgroundColor="#40000000"/>
+		<widget name="genre" text="" transparent="1" zPosition="99" halign="left" position="560,603" size="1478,160" font="youvix-l; 28" foregroundColor="#CECECE" backgroundColor="#40000000"/>
+     -->
+		<eLabel text="Finishes at:" position="1475,998" size="150,38" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#51010101" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="endingTime" position="1654,998" size="160,38" font="youvix-r;30" foregroundColor="#00ffffff" backgroundColor="#51010101" halign="left" valign="center" transparent="1" noWrap="1" zPosition="1"/>
+		<ePixmap position="360,968" size="1185,18" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/movieprogressbar_background.png" alphatest="blend"/>
+		<widget source="session.CurrentService" render="PositionGauge" position="360,965" size="1185,18" pointer="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/movieprogressbar.png:1185,0" transparent="1" zPosition="2">
+			<convert type="ServicePosition">Gauge</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1586,960" size="110,38" font="youvix-r;30" foregroundColor="#00ffffff" backgroundColor="#51010101" transparent="1" halign="right" valign="center">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<eLabel text="/" font="youvix-r;30" position="1702,960" size="25,38" foregroundColor="#003499cc" backgroundColor="#51010101" halign="left" transparent="1" zPosition="1"/>
+		<widget source="session.CurrentService" render="Label" position="1726,960" size="110,38" font="youvix-r;30" foregroundColor="#003499cc" backgroundColor="#51010101" transparent="1" halign="left" valign="center">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+	</screen>
+	<!-- DPS_MusicPlayer -->
+	<screen name="DPS_MusicPlayer" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#ffffffff" title="InfoBar">
+	<!-- background -->
+		<ePixmap position="0,723" size="1920,305" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/moviebar.png" zPosition="-1"/>
+		<widget name="poster" transparent="1" zPosition="1" position="94,652" size="244,354" alphatest="blend"/>
+		<widget name="bufferslider" position="center,20" size="500,10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/progress-fs8.png" transparent="1" zPosition="10"/>
+		<!-- clock -->
+		<widget source="global.CurrentTime" render="Label" position="1707,50" size="150,70" font="youvix-r;56" foregroundColor="#00ffffff" backgroundColor="#51010101" transparent="1" noWrap="1" halign="right" valign="center" zPosition="1">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget source="mediaTitle" render="Label" position="360,725" size="1120,60" font="Default;45" foregroundColor="#CECECE" backgroundColor="#51010101" transparent="1" halign="left" valign="center" noWrap="1" zPosition="4"/>
+		<widget name="shortDescription" text="" transparent="1" zPosition="99" halign="left" position="360,783" size="1478,160" font="youvix-l; 28" foregroundColor="#CECECE" backgroundColor="#40000000"/>
+		<!-- for future dreamplex enhancments to DP-Player.py
+		<widget name="year" text="" transparent="1" zPosition="99" halign="left" position="360,603" size="1478,160" font="youvix-l; 28" foregroundColor="#CECECE" backgroundColor="#40000000"/>
+		<widget name="genre" text="" transparent="1" zPosition="99" halign="left" position="560,603" size="1478,160" font="youvix-l; 28" foregroundColor="#CECECE" backgroundColor="#40000000"/>
+     -->
+		<eLabel text="Finishes at:" position="1475,998" size="150,38" font="youvix-r;26" foregroundColor="#00ffffff" backgroundColor="#51010101" halign="left" valign="center" transparent="1" zPosition="1"/>
+		<widget name="endingTime" position="1654,998" size="160,38" font="youvix-r;30" foregroundColor="#00ffffff" backgroundColor="#51010101" halign="left" valign="center" transparent="1" noWrap="1" zPosition="1"/>
+		<ePixmap position="360,968" size="1185,18" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/movieprogressbar_background.png" alphatest="blend"/>
+		<widget source="session.CurrentService" render="PositionGauge" position="360,965" size="1185,18" pointer="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/osd/movieprogressbar.png:1185,0" transparent="1" zPosition="2">
+			<convert type="ServicePosition">Gauge</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1586,960" size="110,38" font="youvix-r;30" foregroundColor="#00ffffff" backgroundColor="#51010101" transparent="1" halign="right" valign="center">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<eLabel text="/" font="youvix-r;30" position="1702,960" size="25,38" foregroundColor="#003499cc" backgroundColor="#51010101" halign="left" transparent="1" zPosition="1"/>
+		<widget source="session.CurrentService" render="Label" position="1726,960" size="110,38" font="youvix-r;30" foregroundColor="#003499cc" backgroundColor="#51010101" transparent="1" halign="left" valign="center">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+	</screen>
+	<!-- LCD screen -->
+	<screen name="DreamPlexPlayerSummary" position="0,0" size="132,64" id="1">
+		<!-- Movie name -->
+		<widget source="session.CurrentService" render="Label" position="1,1" size="130,37" font="youvix-r;16" halign="center">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<!-- Current time -->
+		<widget source="global.CurrentTime" render="Label" position="1,44" size="58,20" font="youvix-r;17" halign="center">
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<!-- Remaining movie time -->
+		<widget source="session.CurrentService" render="Label" position="60,44" size="72,20" font="youvix-r;17" halign="center">
+			<convert type="ServicePosition">Remaining,Negate</convert>
+			<!--convert type="ServicePosition">Summary</convert-->
+		</widget>
+	</screen>
+	<!-- OLED screen DM800se Color display -->
+	<screen name="DreamPlexPlayerSummary" position="0,0" size="96,64" id="2">
+		<!-- Movie name -->
+		<widget source="session.CurrentService" render="Label" position="0,-3" size="96,40" font="youvix-r;17" foregroundColor="#FFFF00" halign="center" valign="top">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<!-- Progress border -->
+		<eLabel position="0,39" size="96,1" backgroundColor="#3D3DFF"/>
+		<eLabel position="0,39" size="1,8" backgroundColor="#3D3DFF"/>
+		<eLabel position="95,39" size="1,8" backgroundColor="#3D3DFF"/>
+		<eLabel position="0,47" size="96,1" backgroundColor="#3D3DFF"/>
+		<!-- Current time -->
+		<widget source="global.CurrentTime" render="Label" position="0,48" size="48,16" font="youvix-r;16" halign="left">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<!-- Remaining movie time -->
+		<widget source="session.CurrentService" render="Label" position="48,48" size="48,16" font="youvix-r;16" foregroundColor="#FFFF00" halign="right">
+			<convert type="ServicePosition">Remaining,Negate,ShowHours,ShowNoSeconds</convert>
+		</widget>
+	</screen>
+</skins>
