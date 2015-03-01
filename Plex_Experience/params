@@ -3,9 +3,11 @@
 	<!-- debugMode True prevents switching back default skin when raise condition in skin occurs -->
 	<skinParams resolution="FHD" compatibility="v2" skinner="rossi2000" debugMode="False" highlighted="#003499cc" normal="#ffffff"/>
 	<!-- typea => HD, FHD -->
+	
 	<!-- MAIN MENU ORIENTATION -->
 	<menuScreen name="main_menu" type="horizontal" highlighted="#00CC7C19" normal="#ffffff"/>
 	<menuScreen name="server_menu" type="horizontal" highlighted="#00CC7C19" normal="#ffffff"/>
+	
 	<!-- SCREEN OPTIONS -->
 	<!-- if miniTv = False you can delete height and width -->
 	<screen name="main_menu" miniTv="False"/>
@@ -15,6 +17,7 @@
 	<!-- we use height and width for the poster size here -->
 	<screen name="DPS_MusicPlayer" miniTv="False" usePoster="False" height="268" width="195"/>
 	<screen name="DPS_VideoPlayer" miniTv="False" usePoster="False" height="268" width="195"/>
+	
 	<!-- FONTS SECTION -->
 	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/youvix-b.ttf" size="100" name="youvix-b"/>
 	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/youvix-r.ttf" size="100" name="youvix-r"/>
@@ -23,6 +26,7 @@
 	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/Default.ttf" size="100" name="Default"/>
 	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/Title.ttf" size="100" name="Title"/>
 	<font path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/TitleCaps.ttf" size="100" name="TitleCaps"/>
+	
 	<!-- GUI ELEMENTS -->
 	<guiElement name="seenPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/icons/seen-fs8.png"/>
 	<guiElement name="startedPic" path="/usr/lib/enigma2/python/Plugins/Extensions/DreamPlex/skins/Plex_Experience/icons/started-fs8.png"/>
@@ -40,13 +44,14 @@
 		Please note that if you want that a Label of an information should move as well it has to be named like this in skin.xml
 		for example : "sound" if sound has a Label it must be a widget and the name "soundLabel"
 	-->
+	
 	<!-- MOVIE VIEWS -->
-	<movieView name="List" apiLevel="1" itemsPerPage="10" screen="DPS_ViewList" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
+	<movieView name="List" type="List" apiLevel="1" itemsPerPage="10" screen="DPS_ViewList" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
 		<subView name="ShowMovies">
 		<element name="title" xCoord="950" yCoord="173" visible="False"/>
 		</subView>
 	</movieView>
-	<movieView name="Backdrop" apiLevel="1" itemsPerPage="12" screen="DPS_ViewBackdrop" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
+	<movieView name="Backdrop" type="Backdrop" apiLevel="1" itemsPerPage="12" screen="DPS_ViewBackdrop" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
 		<subView name="ShowMovies">
 			<element name="backdrop" visible="True" height="1080" width="1920"/>
 		</subView>
@@ -55,7 +60,7 @@
 	-->
 
 	<!-- SHOW VIEWS -->
-	<showView name="List" apiLevel="1" itemsPerPage="10" screen="DPS_ViewList" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920" >
+	<showView name="List" type="List" apiLevel="1" itemsPerPage="10" screen="DPS_ViewList" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920" >
 		<subView name="ShowShows">
 			<element name="grandparentTitle" visible="True"/>
 			<element name="title" xCoord="950" yCoord="173"/>
@@ -123,7 +128,7 @@
 			<element name="btn_yellow" visible="True"/>
 		</subView>
 	</showView>
-	<showView name="Backdrop" apiLevel="1" itemsPerPage="12" screen="DPS_ViewBackdrop" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
+	<showView name="Backdrop" type="Backdrop" apiLevel="1" itemsPerPage="12" screen="DPS_ViewBackdrop" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
 		<subView name="ShowShows">
 		     <element name="genre" visible="False"/>
 			<element name="grandparentTitle" visible="True"/>
@@ -203,7 +208,7 @@
 	-->
 
 	<!-- MUSIC VIEWS -->
-	<musicView name="List" apiLevel="1" itemsPerPage="12" screen="DPS_ViewList" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
+	<musicView name="List" type="List" apiLevel="1" itemsPerPage="12" screen="DPS_ViewList" backdropVideos="False" backdropVideoHeight="1080" backdropVideoWidth="1920" miniTv="False" posterHeight="402" posterWidth="315" backdropHeight="1080" backdropWidth="1920">
 		<subView name="ShowArtists">
 
 		</subView>
